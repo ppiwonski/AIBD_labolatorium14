@@ -1,6 +1,6 @@
 def bubble(arr):
     lenght=len(arr)
-    for j in range(0, lenght-1):
+    for j in range(0, lenght):
            if not isinstance(arr[j],(int,float)):
                 return None
     
